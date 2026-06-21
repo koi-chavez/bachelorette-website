@@ -16,7 +16,7 @@ export const event = {
 
 export const contact = {
   name: 'Koi',
-  role: 'Maid of Honor',
+  role: '',
   phone: '801-875-2160',
   // tel: link uses digits only
   phoneHref: 'tel:+18018752160',
@@ -58,7 +58,7 @@ export const itinerary: ItineraryDay[] = [
     day: 'Friday',
     date: 'July 31',
     items: [
-      { time: '9:00 AM – 3:00 PM', title: 'Crab Island Pontoon Charter', note: 'A full day on the water' },
+      { time: '9:00 AM – 3:00 PM', title: 'Crab Island Pontoon Charter', note: 'A half day on the water' },
       { title: 'Relax & Get Ready', note: 'Rest, refresh & glam up' },
       { title: 'RIP to Her Last Name Dinner', note: 'A funeral for the single life' },
     ],
@@ -126,7 +126,7 @@ export const dressThemes: DressTheme[] = [
       { name: 'Ivory', hex: '#FBFAF6' },
     ],
     inspoLink: 'https://www.tiktok.com/t/ZP8svj3Pv/',
-    inspoLabel: 'Watch outfit inspo',
+    inspoLabel: 'TikTok outfit inspo',
   },
   {
     name: 'Spritz & Sequins',
@@ -141,7 +141,7 @@ export const dressThemes: DressTheme[] = [
       { name: 'Aperol', hex: '#E8662A' },
     ],
     inspoLink: 'https://www.tiktok.com/t/ZP8svJG7T/',
-    inspoLabel: 'Watch outfit inspo',
+    inspoLabel: 'TikTok outfit inspo',
   },
 ]
 
@@ -212,7 +212,7 @@ export const packingList: PackingCategory[] = [
   },
   {
     category: 'Beach & Pool',
-    items: ['2–3 swimsuits', 'Cover-up', 'Sunscreen (reef-safe)', 'Beach towel', 'Sun hat', 'Flip flops'],
+    items: ['2–3 swimsuits', 'Cover-up', 'Sunscreen', 'Beach towel', 'Sun hat', 'Flip flops'],
   },
   {
     category: 'Outfits',
@@ -249,7 +249,7 @@ export const faqs: FaqItem[] = [
   {
     question: 'How do payments work?',
     answer:
-      'The host will collect everyone’s share via Venmo or Zelle ahead of the trip. Please pay promptly so we can lock in reservations.',
+      'Koi will collect everyone’s share via Venmo or Zelle ahead of the trip. Please pay promptly so we can lock in reservations.',
   },
   {
     question: 'What’s the weather like?',

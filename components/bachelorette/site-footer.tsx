@@ -8,7 +8,7 @@ export function SiteFooter() {
           See You at the Beach
         </p>
         <p className="mt-5 font-serif text-4xl font-light italic leading-tight sm:text-5xl">
-          Cheers to Julia
+          Cheers to Julia!!
         </p>
         <p className="mt-5 text-sm font-light tracking-wide text-primary-foreground/85">
           {event.dateRange} · {event.location}
@@ -19,7 +19,7 @@ export function SiteFooter() {
             Questions?
           </p>
           <p className="mt-3 text-sm font-light text-primary-foreground/90">
-            Reach out to {contact.name}, your {contact.role}
+            Reach out to {contact.name}
           </p>
           <a
             href={contact.phoneHref}
@@ -28,10 +28,6 @@ export function SiteFooter() {
             {contact.phone}
           </a>
         </div>
-
-        <p className="mt-10 text-xs font-light text-primary-foreground/60">
-          Made with love for Julia&apos;s Bachelorette Weekend
-        </p>
       </div>
     </footer>
   )

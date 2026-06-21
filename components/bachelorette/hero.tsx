@@ -14,7 +14,7 @@ export function Hero() {
 
       <div className="relative z-10 flex w-full max-w-3xl flex-col items-center px-5 pt-24 text-center text-background">
         <p className="mb-5 text-xs font-light uppercase tracking-[0.35em] text-background/90 sm:text-sm">
-          You&apos;re Invited
+          You&apos;re Invited To
         </p>
         <h1 className="text-balance font-serif text-5xl font-light leading-[0.95] tracking-tight sm:text-7xl md:text-8xl">
           Julia&apos;s

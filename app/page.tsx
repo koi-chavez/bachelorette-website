@@ -16,7 +16,7 @@ export default function Page() {
       <Itinerary />
       <DressThemes />
       <AirbnbSection />
-      <Transportation />
+      {/* <Transportation /> */}
       <PackingList />
       <Faq />
       <SiteFooter />
