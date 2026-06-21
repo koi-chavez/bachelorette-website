@@ -9,7 +9,7 @@ export function DressThemes() {
         <SectionHeading
           eyebrow="Dress to Impress"
           title="Dress Themes"
-          description="Three looks for three unforgettable moments. Use the mood boards and color palettes below to plan your outfits."
+          description="    We’ve planned a few different vibes for the weekend. Take a peek at the mood boards and color palettes below for outfit inspiration."
         />
 
         <div className="mt-16 space-y-16 md:space-y-24">

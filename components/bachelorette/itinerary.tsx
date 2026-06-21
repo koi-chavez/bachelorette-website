@@ -8,7 +8,7 @@ export function Itinerary() {
         <SectionHeading
           eyebrow="The Plan"
           title="Weekend Itinerary"
-          description="Five days of sun, sand and celebration. Here's everything we have planned — flexible, breezy and all about Julia."
+          description="Four days of sun, sand and celebration. Here's everything we have planned: "
         />
 
         <div className="mt-16 space-y-12 md:space-y-16">
